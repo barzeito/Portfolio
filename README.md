@@ -35,6 +35,10 @@ A fun, interactive memory game that challenges your brain by testing your memory
 🔹 **Randon Number Generator**  
 This is a simple Random Number Generator web app that allows you to generate a random number.
 
+### **5. [Word Counter](https://github.com/barzeito/Word-Counter)**
+🔹 **Word Counter**  
+A simple web app that counts the number of words and characters in real-time as you type.
+
 
 ## 📬 Contact
 I am always open to new opportunities and collaborations. Feel free to reach out to me!
