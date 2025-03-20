@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+
+body {
+    font-size: 14px;
+    background-color: #16181c;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #16181c;
+    color: #F8E6DE;
+}
+
+header #particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+header .info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    height: 100vh;
+}
+
+header .info-text h1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+header .info-text h3 {
+    font-size: 1.5rem;
+}
+
+#about,
+#features,
+#projects,
+#contact {
+    background-color: #16181c;
+    padding: 45px;
+}
+
+#about .about-header,
+#features .features-header,
+#projects .projects-header,
+#contact .contact-header {
+    display: flex;
+    justify-content: space-between;
+    color: #F8E6DE;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#about .about-header a {
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px 50px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    color: #F8E6DE;
+    border-radius: 10px;
+}
+
+#about .about-header a:hover {
+    border-color: #ED500A;
+    box-shadow: none;
+}
+
+#about .card,
+#features .card,
+#projects .card,
+#contact .contact-form {
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 40px;
+    gap: 30px;
+}
+
+#about .card:hover,
+#features .card:hover,
+#projects .card.card:hover {
+    border-color: #ED500A;
+    box-shadow: none;
+}
+
+#about .card img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#projects .card img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#projects a {
+    display: block;
+    text-decoration: none;
+}
+
+#about .card .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#about .card .card-info h1,
+#features .card h1,
+#projects .card h1 {
+    color: #F8E6DE;
+    margin-bottom: 1.25rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#about .card .card-info p,
+#features .card p,
+#projects .card p {
+    color: #F8E6DE;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+}
+
+#features .feature-cards,
+#projects .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#features .feature-cards .card .info i {
+    color: #fff;
+    font-size: 8rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+#features .feature-cards .card,
+#projects .project-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#features .feature-cards .card h1,
+#projects .project-cards .card h1 {
+    text-align: center;
+}
+
+#contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+#contact .contact-form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #F8E6DE;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #0B0E14;
+    border-radius: 10px;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+    border-color: #ED500A;
+    outline: none;
+}
+
+#contact textarea {
+    resize: none;
+    height: 150px;
+}
+
+#contact .form-button {
+    background-color: #16181c;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    color: #F8E6DE;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+#contact .form-button:hover {
+    border-color: #ED500A;
+    box-shadow: none;
+}
+
+#footer {
+    background-color: #16181c;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer p {
+    color: #F8E6DE;
+}
+
+@media screen and (max-width: 720px) {
+    header .info-text h1 {
+        font-size: 4rem;
+    }
+
+    header .info-text h3 {
+        font-size: 1.1rem;
+    }
+
+    #about .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about .card img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
