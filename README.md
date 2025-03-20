@@ -28,7 +28,7 @@ Vacations Management System is a web application designed to streamline the proc
 🔹 **Interactive Memory Game**  
 A fun, interactive memory game that challenges your brain by testing your memory and reaction time.
 
-### **4. [Rnadom Number Generator]((https://github.com/barzeito/RandomNumber)**
+### **4. [Rnadom Number Generator](https://github.com/barzeito/RandomNumber)**
 🔹 **Randon Number Generator**  
 This is a simple Random Number Generator web app that allows you to generate a random number.
 
