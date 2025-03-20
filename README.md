@@ -1,7 +1,12 @@
 # Bar Zeitony - Portfolio
 
+[LiveDemo](https://barzeito.github.io/Memory-Game/)  
+
 👋 Welcome to my **Portfolio**!  
 I am **Bar Zeitony**, a passionate and dedicated **Full-Stack Web Developer**. I specialize in crafting dynamic, user-friendly websites and web applications, focusing on both front-end and back-end development. I am always eager to learn and enhance my skills, staying up-to-date with the latest technologies.
+
+[LiveDemo](https://barzeito.github.io/Portfolio/)  
+
 
 ## 🌟 About Me
 As a Full-Stack Web Developer, I enjoy creating seamless digital experiences and bringing ideas to life through code. I am proficient in working with both front-end technologies like **HTML**, **CSS**, and **JavaScript** and back-end technologies like **Node.js** and **Databases**.
