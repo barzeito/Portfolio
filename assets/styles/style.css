@@ -106,6 +106,7 @@ header .info-text h3 {
 #about .card img {
     max-width: 200px;
     max-height: 200px;
+    border-radius: 10px;
 }
 
 #projects .card img {
@@ -220,6 +221,29 @@ header .info-text h3 {
 #contact .form-button:hover {
     border-color: #ED500A;
     box-shadow: none;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 24px 32px;
+    gap: 16px;
+    background-color: transparent;
+}
+
+.social .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social .icon img {
+    height: 25px;
 }
 
 #footer {
