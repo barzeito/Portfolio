@@ -109,8 +109,9 @@ header .info-text h3 {
 }
 
 #projects .card img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 50px;
+    max-height: 50px;
+    align-items: center;
 }
 
 #projects a {
